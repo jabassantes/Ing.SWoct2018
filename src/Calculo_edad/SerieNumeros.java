@@ -57,15 +57,22 @@ public class SerieNumeros {
 
             //Variable inpar
             int Inpar=1;
+            //Nueva variable para la multiplicacion
+            int Multiplicacion_impar=1;
             
             //Cilo while para numeros inpares
-            while(Inpar<li){
-
+            while(Inpar<=li){
+            
+            //Multplicacion de los numeros
+                Multiplicacion_impar = Multiplicacion_impar*Inpar;
+                
                 System.out.println("Numero impar:"+Inpar);
                 GuardarTxt.print("Numero inpar:"+Inpar);
                 Inpar=Inpar+2;
 
             }
+            System.out.println("Multiplicacion numeros impares:"+Multiplicacion_impar);
+            GuardarTxt.print("Resultado de la Multplicacion impares:"+Multiplicacion_impar);
         }             
     }        
    
