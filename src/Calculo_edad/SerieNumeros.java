@@ -33,17 +33,25 @@ public class SerieNumeros {
             
             // Variables par          
             int Par;
+            //Variable que contendra la suma de los numeros pares generados
+            int Suma_par=0;
             
 
             // ciclo para numero par     
             for(int i=1;i<=li;i++){
                 if(i%2==0){
                    Par=i;
+                   
+           // Para sumas los numeros pares generados        
+                   Suma_par =Suma_par+i;
                    System.out.println("Numero par:"+Par);
                    GuardarTxt.print("Numero par:"+Par);
                 }
+                
             }
-
+           // Mostrar y guardar la suma delos numeros pares
+            System.out.println("La suma de los pares son:"+Suma_par);
+            GuardarTxt.print("La suma es :"+Suma_par);
             //Numero impares
             System.out.println("Acontinuacion se muestra la serie de numeros imparesn");
 
