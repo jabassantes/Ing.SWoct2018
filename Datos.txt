@@ -1,0 +1,1 @@
+Numero par:2Numero par:4Numero par:6Numero par:8Numero par:10Numero inpar:1Numero inpar:3Numero inpar:5Numero inpar:7Numero inpar:9
